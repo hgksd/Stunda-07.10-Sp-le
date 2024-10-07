@@ -1,2 +1,2 @@
 # Stunda-07.10-Sp-le
-Maksims ,artoms sergejs , kirils
+Maksims Mockus, Artjoms Prokopjevs, Sergejs Račkovskis, Kirils Kulešovs
