@@ -35,7 +35,7 @@
         <mxCell id="hdvIO45Ck_3Dufj-_lpb-18" value="print(&quot;Uz redzēšanos&quot;)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="135" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ak2SBpWxDnkleXrZ2XL--2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hdvIO45Ck_3Dufj-_lpb-20" target="Ak2SBpWxDnkleXrZ2XL--1">
+        <mxCell id="Ak2SBpWxDnkleXrZ2XL--2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hdvIO45Ck_3Dufj-_lpb-20" target="Ak2SBpWxDnkleXrZ2XL--1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hdvIO45Ck_3Dufj-_lpb-20" value="input(&quot;Jusu uzdēvums būs atbildēt uz 10 jautajumus un jus vār uzvarēt automobilu. Uzpiest enter lai turpināt&quot;)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -44,20 +44,66 @@
         <mxCell id="hdvIO45Ck_3Dufj-_lpb-24" value="End" style="triangle;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="710" y="125" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ak2SBpWxDnkleXrZ2XL--4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ak2SBpWxDnkleXrZ2XL--1" target="Ak2SBpWxDnkleXrZ2XL--3">
+        <mxCell id="Ak2SBpWxDnkleXrZ2XL--4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ak2SBpWxDnkleXrZ2XL--1" target="Ak2SBpWxDnkleXrZ2XL--3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ak2SBpWxDnkleXrZ2XL--1" value="question=choice(all_questions)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ak2SBpWxDnkleXrZ2XL--1" value="question=choice(all_questions)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="311" y="520" width="206" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="Ak2SBpWxDnkleXrZ2XL--6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ak2SBpWxDnkleXrZ2XL--3" target="Ak2SBpWxDnkleXrZ2XL--5">
+        <mxCell id="Ak2SBpWxDnkleXrZ2XL--6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ak2SBpWxDnkleXrZ2XL--3" target="Ak2SBpWxDnkleXrZ2XL--5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ak2SBpWxDnkleXrZ2XL--3" value="input(f&quot;Jūsu jautājums ir {question[&#39;text&#39;]\nAtbildes varianti ir\n{question[&#39;answers&#39;]}\nJūsu atbilde ir: &quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ak2SBpWxDnkleXrZ2XL--3" value="ans=input(f&quot;Jūsu jautājums ir {question[&#39;text&#39;]\nAtbildes varianti ir\n{question[&#39;answers&#39;]}\nJūsu atbilde ir: &quot;)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="311" y="630" width="206" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ak2SBpWxDnkleXrZ2XL--5" value="Atbilde ir pareiza" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ak2SBpWxDnkleXrZ2XL--9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ak2SBpWxDnkleXrZ2XL--5" target="Ak2SBpWxDnkleXrZ2XL--7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ak2SBpWxDnkleXrZ2XL--11" value="Nē" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Ak2SBpWxDnkleXrZ2XL--9" vertex="1" connectable="0">
+          <mxGeometry x="-0.1688" y="-1" relative="1" as="geometry">
+            <mxPoint x="-5" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ak2SBpWxDnkleXrZ2XL--13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Ak2SBpWxDnkleXrZ2XL--5" target="Ak2SBpWxDnkleXrZ2XL--12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ak2SBpWxDnkleXrZ2XL--5" value="&lt;div&gt;ans==question[&quot;right_answer&quot;]&lt;/div&gt;Atbilde ir pareiza" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="314" y="730" width="199" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Ak2SBpWxDnkleXrZ2XL--10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Ak2SBpWxDnkleXrZ2XL--7" target="Ak2SBpWxDnkleXrZ2XL--8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ak2SBpWxDnkleXrZ2XL--7" value="print(&quot;Jūs zaudējāt&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="765" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ak2SBpWxDnkleXrZ2XL--8" value="END" style="triangle;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="760" y="755" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Hn785Kom0CwV8REAGcmY-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ak2SBpWxDnkleXrZ2XL--12" target="Hn785Kom0CwV8REAGcmY-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ak2SBpWxDnkleXrZ2XL--12" value="input(f&quot;Vai jūs gribāt turpināt vai ņemt balvu({balvas[i]})&quot;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="316" y="890" width="196" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hn785Kom0CwV8REAGcmY-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hn785Kom0CwV8REAGcmY-1" target="Hn785Kom0CwV8REAGcmY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hn785Kom0CwV8REAGcmY-5" value="Jā" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Hn785Kom0CwV8REAGcmY-4">
+          <mxGeometry x="0.0291" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hn785Kom0CwV8REAGcmY-1" value="Ņemsiet balvu" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="331" y="990" width="166" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Hn785Kom0CwV8REAGcmY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hn785Kom0CwV8REAGcmY-3" target="Hn785Kom0CwV8REAGcmY-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hn785Kom0CwV8REAGcmY-3" value="print(f&quot;Jūsu balva ir {balvas[i]}. Uz redzēšanos.&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1005" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hn785Kom0CwV8REAGcmY-6" value="END" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="995" width="60" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
