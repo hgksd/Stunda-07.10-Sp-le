@@ -1,6 +1,6 @@
 import random
 while True:
-    q1 = input("Vai jus vēleties spēlet?: ").lower()
+    q1 = input("Vai jus vēleties spēlet?: \n").lower()
 
     if q1== 'ja' or q1== 'jā':
         break
@@ -87,15 +87,15 @@ all_questions = [{
     "right_answer": "c",
     }]
 
-balvas=['Šokolādes konfekšu kārba',' Dalība sporta zālē','Gludeklis','Tosteris','Biļete uz Dubaiju','Veļas mašīna',' Nauda','Telefons','TV','Automašīna',]
+balvas=['Šokolādes konfekšu kārba',' Abonementa sportu zālē','Gludeklis','Tosteris','Biļete uz Dubaiju','Veļas mašīna',' TV','Telefons','1000 eiro','Automašīna',]
 
 for i in range(10):        
-    input("Jusu uzdēvums būs atbildēt uz 10 jautajumus un jus vār uzvarēt automobilu. Uzpiest enter lai turpināt: ")
+    input("Jusu uzdēvums būs atbildēt uz 10 jautajumus un jus vār uzvarēt automobilu. Uzpiest enter lai turpināt: \n")
     question = random.choice(all_questions)
     all_questions.remove(question)
-    ans=input(f"Jūsu jautājums ir {question['text']}\nAtbildes varianti ir\n{question['answers']}\nJūsu atbilde ir: ").lower()
+    ans=input(f"Jūsu jautājums ir {question['text']}\nAtbildes varianti ir\n{question['answers']}\nJūsu atbilde ir: \n").lower()
     if ans==question["right_answer"]:
-        player_choice=input(f"Vai jūs gribāt turpināt vai ņemt balvu({balvas[i]}). Ievadiet ja, ja gribi ņemt balvu: ").lower()
+        player_choice=input(f"Vai jūs gribāt turpināt vai ņemt balvu({balvas[i]}). Ievadiet ja, ja gribi ņemt balvu: \n").lower()
         if player_choice=='ja':
             print(f"Jūsu balva ir {balvas[i]}. Uz redzēšanos.")
             break
