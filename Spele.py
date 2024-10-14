@@ -6,7 +6,7 @@ while True:
         break
     elif q1== "ne" or q1== "nē":
         print("Uz redzēšanos")
-        raise ValueError
+        quit()
         break
     else:
         print("Uzraksti <Jā vai Nē> ludzu.")
