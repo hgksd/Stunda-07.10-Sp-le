@@ -1,6 +1,6 @@
 import random
 while True:
-    q1 = input("").lower()
+    q1 = input("Vai jus vēleties spēlet?: ").lower()
 
     if q1== 'ja' or q1== 'jā':
         break
@@ -92,6 +92,7 @@ balvas=['Šokolādes konfekšu kārba',' Dalība sporta zālē','Gludeklis','Tos
 for i in range(10):        
     input("Jusu uzdēvums būs atbildēt uz 10 jautajumus un jus vār uzvarēt automobilu. Uzpiest enter lai turpināt: ")
     question = random.choice(all_questions)
+    all_questions.remove(question)
     ans=input(f"Jūsu jautājums ir {question['text']}\nAtbildes varianti ir\n{question['answers']}\nJūsu atbilde ir: ").lower()
     if ans==question["right_answer"]:
         player_choice=input(f"Vai jūs gribāt turpināt vai ņemt balvu({balvas[i]}). Ievadiet ja, ja gribi ņemt balvu: ").lower()
